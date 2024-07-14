@@ -113,3 +113,4 @@ console.log(number_17);
 let number_18 = -5;
 let result = (number_18 >= 0) ? "positive" : "negative";
 console.log("The number " + number_18 + " is " + result + ".");
+//                               <!-- Complete -->
