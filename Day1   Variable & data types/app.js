@@ -50,4 +50,4 @@ const master = 'Google';
 master = 'Microsoft';
 console.log(master);//Output: TypeError: Assignment to constant variable.
 
-                           // <!-- Complete --> //
+                            // <!-- Complete --> //
