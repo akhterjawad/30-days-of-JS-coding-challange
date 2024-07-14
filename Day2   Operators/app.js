@@ -91,19 +91,19 @@ console.log(isLesserOrEqual);
 
 // • Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.log
 
-let EndOperator = 4<5 && 3>6;
+let EndOperator = 4 < 5 && 3 > 6;
 console.log(EndOperator);
-console.log(EndOperator&&OROperator);
+console.log(EndOperator && OROperator);
 
 // • Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.log
 
-let OROperator = 4<5 || 3>6;
+let OROperator = 4 < 5 || 3 > 6;
 console.log(OROperator);
-console.log(EndOperator||OROperator);
+console.log(EndOperator || OROperator);
 
 // • Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.log
 
-let number_17 = !(4>5);
+let number_17 = !(4 > 5);
 console.log(number_17);
 
 // Activity 5: Ternary Operator
