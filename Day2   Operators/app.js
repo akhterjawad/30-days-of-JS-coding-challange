@@ -32,23 +32,23 @@ console.log(subract);
 
 // • Task 3: Write a program to multiply two numbers and log the result to the console.log
 
-let number_5 = 4; 
-let number_6 = 2; 
-let multiply = number_5 * number_6
+let number_5 = 4;
+let number_6 = 2;
+let multiply = number_5 * number_6;
 console.log(multiply);
 
 // • Task 4: Write a program to divide two numbers and log the result to the console.log
 
-let number_7 = 8; 
-let number_8 = 3; 
-let divide = number_7 / number_8
+let number_7 = 8;
+let number_8 = 3;
+let divide = number_7 / number_8;
 console.log(divide);
 
 // • Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.log
 
 let number_9 = 5;
 let number_10 = 9;
-let remainder = number_9 % number_10
+let remainder = number_9 % number_10;
 console.log(remainder);
 
 // Activity 2: Assignment Operators
@@ -57,48 +57,59 @@ console.log(remainder);
 
 let number_11 = 10;
 let addValue = 5;
-number_11 += addValue
+number_11 += addValue;
 console.log(number_11);
 
 // Task 7: Use the -= operator to subtract a number from a variable and log the result to the console.log
 
 let number_12 = 90;
 let SubractValue = 84;
-number_12 -= SubractValue
+number_12 -= SubractValue;
 console.log(number_12);
 
 // Activity 3: Comparison Operators
 
 // • Task 8: Write a program to compare two numbers using > and < and log the result to the console.log
 
-let number_13 = 7
-let number_14 = 9
-let isGreater = number_13>number_14
-let isLesser = number_13<number_14
-console.log(`isGreater ${isGreater}, isLesser ${isLesser}`);
+let number_13 = 9;
+let number_14 = 9;
+let isGreater = number_13 > number_14;
+let isLesser = number_13 < number_14;
+console.log(`Greater value is ${isGreater} & Lesser value is ${isLesser}`);
 
 
 // • Task 9: Write a program to compare two numbers using >= and <= and log the result to the console.log Task 10: Write a program to compare two numbers using == and === and log the result to the console.log
 
-
+let number_15 = 30;
+let number_16 = 30;
+let isGreaterOrEqual = number_15 >= number_16;
+console.log(isGreaterOrEqual);
+let isLesserOrEqual = number_15 <= number_16;
+console.log(isLesserOrEqual);
 
 // Activity 4: Logical Operators
 
 // • Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.log
 
+let EndOperator = 4<5 && 3>6;
+console.log(EndOperator);
+console.log(EndOperator&&OROperator);
 
+// • Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.log
 
-// • Task 12: Write a program that uses the II operator to combine two conditions and log the result to the console.log
-
-
+let OROperator = 4<5 || 3>6;
+console.log(OROperator);
+console.log(EndOperator||OROperator);
 
 // • Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.log
 
-
+let number_17 = !(4>5);
+console.log(number_17);
 
 // Activity 5: Ternary Operator
 
 // • Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.log
 
-
-
+let number_18 = -5;
+let result = (number_18 >= 0) ? "positive" : "negative";
+console.log("The number " + number_18 + " is " + result + ".");
