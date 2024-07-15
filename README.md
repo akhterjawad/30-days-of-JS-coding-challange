@@ -1,0 +1,1 @@
+"Welcome to my repository for the 30 Days of JavaScript Challenge! This challenge, presented by @hiteshchoudhary on Chai Aur Code, aims to help you enhance and refine your JavaScript skills by exploring diverse topics daily for a month. Embrace this opportunity to bolster your proficiency in JavaScript, one day at a time!"
