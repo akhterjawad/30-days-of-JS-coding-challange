@@ -1,7 +1,5 @@
 // Day 3: Control Structures
 
-// Tasks/Activities:
-
 //  Feature Request:
 
 // 1. Number Check Script: Write a script that checks if a number is positive, negative, or zero using if-else statements and logs the result.
@@ -20,6 +18,8 @@
 // • Use nested if-else statements to handle multiple conditions.
 // • Utilize switch cases for control flow based on specific values. Apply the ternary operator for concise condition checking.
 // • Combine multiple conditions to solve more complex problems.
+
+// Tasks/Activities:
 
 // Activity 1: If-Else Statements
 
