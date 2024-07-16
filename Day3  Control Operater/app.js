@@ -68,18 +68,56 @@ if (num1 < num3) {
 
 // • Task 4: Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
 
-switch (key) {
-  case value:
-    
-    break;
+let day = new Date().getDay();
+switch (day) {
+  case 0: console.log(`monady`);
 
-  default:
+    break;
+  case 1: console.log(`Tuesday`);
+
+    break;
+  case 2: console.log(`Wedneday`);
+
+    break;
+  case 3: console.log(`Thursday`);
+
+    break;
+  case 4: console.log(`Friday`);
+
+    break;
+  case 5: console.log(`Saturday`);
+
+    break;
+  case 6: console.log(`Sunday`);
+
+    break;
+  default: console.log(`Enter a valid Day`);
     break;
 }
 
 // • Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
 
+let score = 95
+let grade;
 
+switch (true) {
+    case score >= 90:
+        grade = 'A';
+        break;
+    case score >= 80:
+        grade = 'B';
+        break;
+    case score >= 70:
+        grade = 'C';
+        break;
+    case score >= 60:
+        grade = 'D';
+        break;
+    default:
+        grade = 'F';
+        break;
+}
+console.log(`your score is ${score} & your grade is ${grade}`);
 
 // Activity 4: Conditional (Ternary) Operator
 
