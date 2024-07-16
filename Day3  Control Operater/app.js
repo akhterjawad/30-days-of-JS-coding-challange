@@ -101,21 +101,21 @@ let score = 95
 let grade;
 
 switch (true) {
-    case score >= 90:
-        grade = 'A';
-        break;
-    case score >= 80:
-        grade = 'B';
-        break;
-    case score >= 70:
-        grade = 'C';
-        break;
-    case score >= 60:
-        grade = 'D';
-        break;
-    default:
-        grade = 'F';
-        break;
+  case score >= 90:
+    grade = 'A';
+    break;
+  case score >= 80:
+    grade = 'B';
+    break;
+  case score >= 70:
+    grade = 'C';
+    break;
+  case score >= 60:
+    grade = 'D';
+    break;
+  default:
+    grade = 'F';
+    break;
 }
 console.log(`your score is ${score} & your grade is ${grade}`);
 
@@ -123,10 +123,19 @@ console.log(`your score is ${score} & your grade is ${grade}`);
 
 // • Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
 
-
+let num = 2;
+let answer = num % 2 === 0 ? `even` : `odd`;
+console.log(answer);
 
 // Activity 5: Combining Conditions
 
 // • Task 7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
 
-
+let year = 2021
+let leapYear;
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    leapYear = true;
+} else {
+    leapYear = false;
+}
+console.log(leapYear);
