@@ -68,7 +68,6 @@ const containsCharacter = (str, char) => str.includes(char);
 console.log(containsCharacter("Hello, world!", "w")); // Outputs: true
 console.log(containsCharacter("Hello, world!", "z")); // Outputs: false
 
-
 // Activity 4: Function Parameters and Default Values
 // • Task 7: Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
 
@@ -109,10 +108,8 @@ const applyFunctions = (func1, func2, value) => {
     const finalResult = func2(resultFromFunc1);
     return finalResult;
 };
-
 const double = (x) => x * 2;
 const addOne = (x) => x + 1;
-
 const result = applyFunctions(double, addOne, 3);
 console.log(result); 
-
+//====================== Complete ======================//
