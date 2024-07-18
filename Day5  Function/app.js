@@ -72,18 +72,47 @@ console.log(containsCharacter("Hello, world!", "z")); // Outputs: false
 // Activity 4: Function Parameters and Default Values
 // • Task 7: Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
 
-
+let DefaultValues=(first,second='Google')=> {
+    console.log(first,second);
+}
+DefaultValues('Hello');
 
 // • Task 8: Write a function that takes a person's name and age and returns a greeting message. Provide a default value for the age.
 
-
+// let fullName= prompt('what is your name');
+// let GreetingMessage=(name,age='65')=>{
+// console.log(name,age);
+// alert(`Hello ${name} how are you with your ${age} age`)
+// }
+// GreetingMessage(fullName,);
 
 // Activity 5: Higher-Order Functions
 // • Task 9: Write a higher-order function that takes a function and a number, and calls the function that many times.
+
+const repeatFunction = (func, times) => {
+    for (let i = 0; i < times; i++) {
+        func();
+    }
+};
+// Example usage:
+const sayHello = () => {
+    console.log("Hello!");
+};
+repeatFunction(sayHello, 3);
 
 
 
 // • Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result. 
 
+const applyFunctions = (func1, func2, value) => {
+    const resultFromFunc1 = func1(value);
+    const finalResult = func2(resultFromFunc1);
+    return finalResult;
+};
 
+const double = (x) => x * 2;
+const addOne = (x) => x + 1;
+
+const result = applyFunctions(double, addOne, 3);
+console.log(result); 
 
