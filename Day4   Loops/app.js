@@ -25,18 +25,17 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // • Task 2: Write a program to print the multiplication table of 5 using a for loop.
+
 for (let i = 1; i <= 10; i++) {
     console.log(`${5} x ${i} = ${i * 5}`);
 
 }
-
 
 // Activity 2: While Loop
 // • Task 3: Write a program to calculate the sum of numbers from 1 to 10 using a while loop.
 
 let k = 1;
 let sum = 0;
-
 while (k <= 10) {
     sum= sum + k;
     k++;
@@ -53,7 +52,7 @@ while (j >= 1) {
 
 // Activity 3: Do...While Loop
 // • Task 5: Write a program to print numbers from 1 to 5 using a do...while loop.
-let m =1
+let m =1;
 do {
     console.log(m,`m`);
     m++;
@@ -61,7 +60,7 @@ do {
 
 // • Task 6: Write a program to calculate the factorial of a number using a do...while loop.
 
-let n =5
+let n =5;
 do {
     console.log(`${n}  ${n*n}`);
 n--;
@@ -95,7 +94,6 @@ for (let i = 1; i <= 10; i++) {
     if (i === 7) {
         break; // Exit the loop when i is 7
     }
-    console.log(i);
-}
+    console.log(i);}
 
 //================= Complete=================// 
