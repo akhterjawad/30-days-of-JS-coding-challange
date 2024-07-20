@@ -44,7 +44,6 @@ console.log(numbers);
 update = numbers.unshift(100);
 console.log(numbers);
 
-
 // • Task 7: Use the map method to create a new array where each number is doubled and log the new array.
 
 let OriginalArray = [1, 2, 3, 4, 5];
@@ -88,3 +87,4 @@ console.log(TwoDimensionalArray);
 // • Task 13: Access and log a specific element from the two-dimensional array.
 
 console.log(TwoDimensionalArray[0][1]);
+//<!-------------- Complete ---------------->//
