@@ -78,13 +78,13 @@ console.log(`Result with one parameter: ${result2}`);
 
 // • Task 8: Use enhanced object literals to create an object with methods and properties, and log the object to the console.
 
-let FirstName ='haseeb';
-let LastName ='ur rehman';
-let value={
+let FirstName = 'haseeb';
+let LastName = 'ur rehman';
+let value = {
     FirstName,
     LastName
- };
- console.log(value,`FirstName==> ${FirstName} LastName==> ${LastName}`);
+};
+console.log(value, `FirstName==> ${FirstName} LastName==> ${LastName}`);
 
 
 // • Task 9: Create an object with computed property names based on variables and log the object to the console.
@@ -94,9 +94,9 @@ const ageKey = 'age';
 
 // Create an object with computed property names
 const person = {
-  [firstName]: 'John',
-  [ageKey]: 30,
-  [' occupation']: 'Developer'
+    [firstName]: 'John',
+    [ageKey]: 30,
+    [' occupation']: 'Developer'
 };
 console.log(person);
 
