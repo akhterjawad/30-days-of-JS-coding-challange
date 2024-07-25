@@ -1,18 +1,3 @@
-// Feature Request:
-// 1. Template Literals Script: Write a script that demonstrates the use of template literals to create and log strings with embedded variables and multi-line strings.
-// 2. Destructuring Script: Create a script that uses array and object destructuring to extract values and log them.
-// 3. Spread and Rest Operators Script: Write a script that demonstrates the use of the spread operator to combine arrays and the rest operator to handle multiple function arguments.
-// 4. Default Parameters Script: Create a script that defines a function with default parameters and logs the results of calling it with different arguments.
-// 5. Enhanced Object Literals Script: Write a script that uses enhanced object literals to create and log an object with methods and computed property names.
-
-// Achievement:
-// By the end of these activities, students will:
-// • Understand and use template literals for string interpolation and multi-line strings.
-// • Apply destructuring to extract values from arrays and objects.
-// • Utilize spread and rest operators for array manipulation and function arguments.
-// • Define functions with default parameters.
-// Create objects using enhanced object literals, including methods and computed property names.
-
 // Tasks/Activities:
 // Activity 1: Template Literals
 
@@ -51,15 +36,15 @@ console.log(`title==> ${title}, author==> ${author}`);
 // • Task 5: Use the spread operator to create a new array that includes all elements of an existing array plus additional elements, and log the new array to the console.
 
 let Main_Fruits = [`banana`, `mango`, `apple`];
-let array = [`watermelon`, ...Main_Fruits]
+let array = [`watermelon`, ...Main_Fruits];
 console.log(array);
 
 // • Task 6: Use the rest operator in a function to accept an arbitrary number of arguments, sum them, and return the result.
 
 let Main_Object = (...username) => {
     console.log(username);
-}
-Main_Object("abdullah", "usman", "ammar", "zain", "hassan")
+};
+Main_Object("abdullah", "usman", "ammar", "zain", "hassan");
 
 // Activity 4: Default Parameters
 
@@ -67,12 +52,11 @@ Main_Object("abdullah", "usman", "ammar", "zain", "hassan")
 
 function multiply(a, b = 1) {
     return a * b;
-}
+};
 let result1 = multiply(5, 3);
 console.log(`Result with both parameters: ${result1}`);
 let result2 = multiply(5);
 console.log(`Result with one parameter: ${result2}`);
-
 
 // Activity 5: Enhanced Object Literals
 
@@ -85,7 +69,6 @@ let value = {
     LastName
 };
 console.log(value, `FirstName==> ${FirstName} LastName==> ${LastName}`);
-
 
 // • Task 9: Create an object with computed property names based on variables and log the object to the console.
 
@@ -100,4 +83,19 @@ const person = {
 };
 console.log(person);
 
-//<|=============== COMPLETE =================|>//
+// Feature Request:
+// 1. Template Literals Script: Write a script that demonstrates the use of template literals to create and log strings with embedded variables and multi-line strings.
+// 2. Destructuring Script: Create a script that uses array and object destructuring to extract values and log them.
+// 3. Spread and Rest Operators Script: Write a script that demonstrates the use of the spread operator to combine arrays and the rest operator to handle multiple function arguments.
+// 4. Default Parameters Script: Create a script that defines a function with default parameters and logs the results of calling it with different arguments.
+// 5. Enhanced Object Literals Script: Write a script that uses enhanced object literals to create and log an object with methods and computed property names.
+
+// Achievement:
+// By the end of these activities, students will:
+// • Understand and use template literals for string interpolation and multi-line strings.
+// • Apply destructuring to extract values from arrays and objects.
+// • Utilize spread and rest operators for array manipulation and function arguments.
+// • Define functions with default parameters.
+// Create objects using enhanced object literals, including methods and computed property names.
+
+//<|========================================= COMPLETE ======================================|>//

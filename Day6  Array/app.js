@@ -1,16 +1,3 @@
-// Feature Request:
-// 1. Array Manipulation Script: Write a script that demonstrates the creation of an array, adding and removing elements using push, pop, shift, and unshift methods.
-// 2. Array Transformation Script: Create a script that uses map, filter, and reduce methods to transform and aggregate array data.
-// 3. Array Iteration Script: Write a script that iterates over an array using both for loop and forEach method and logs each element.
-// 4. Two-dimensional Array Script: Create a script that demonstrates the creation and manipulation of a two-dimensional array.
-
-// Achievement:
-// By the end of these activities, students will:
-// • Create and manipulate arrays using various methods.
-// • Transform and aggregate array data using map, filter, and reduce.
-// • Iterate over arrays using loops and iteration methods.
-// • Understand and work with multi-dimensional arrays.
-
 // Tasks/Activities:
 
 // Activity 1: Array Creation and Access
@@ -87,4 +74,19 @@ console.log(TwoDimensionalArray);
 // • Task 13: Access and log a specific element from the two-dimensional array.
 
 console.log(TwoDimensionalArray[0][1]);
+
+// Feature Request:
+// 1. Array Manipulation Script: Write a script that demonstrates the creation of an array, adding and removing elements using push, pop, shift, and unshift methods.
+// 2. Array Transformation Script: Create a script that uses map, filter, and reduce methods to transform and aggregate array data.
+// 3. Array Iteration Script: Write a script that iterates over an array using both for loop and forEach method and logs each element.
+// 4. Two-dimensional Array Script: Create a script that demonstrates the creation and manipulation of a two-dimensional array.
+
+// Achievement:
+// By the end of these activities, students will:
+// • Create and manipulate arrays using various methods.
+// • Transform and aggregate array data using map, filter, and reduce.
+// • Iterate over arrays using loops and iteration methods.
+// • Understand and work with multi-dimensional arrays.
+
+
 //<!-------------- Complete ---------------->//

@@ -1,16 +1,3 @@
-// Day 7: Objects
-
-// Feature Request:
-// 1. Book Object Script: Write a script that creates a book object, adds methods to it, and logs its properties and method results.
-// 2. Library Object Script: Create a script that defines a library object containing an array of book objects and logs the library's details.
-// 3. Object Iteration Script: Write a script that demonstrates iterating over an object's properties using for...in loop and object.keys / Object.values.Achievement:
-
-// By the end of these activities, students will:
-// • Create and manipulate objects with properties and methods.
-// • Understand and use the this keyword in object methods.
-// • Work with nested objects and arrays of objects.
-// • Iterate over an object's properties using loops and built-in methods.
-
 // Tasks/Activities:
 
 // Activity 1: Object Creation and Access
@@ -23,9 +10,7 @@ let book = {
     getBookInfo: function (year) {
         return `${this.title} by ${this.author} & ${year}`;
     }
-
 };
-
 console.log(book);
 
 // • Task 2: Access and log the title and author properties of the book object.
@@ -87,10 +72,23 @@ console.log(school.head());
 
 for (const key in book) {
     console.log(key);
-}
+};
 
 // • Task 9: Use Object.keys and Object.values methods to log all the keys and values of the book object.
 
 for (const key in book) {
     console.log(book[key]);
-}
+};
+
+// Feature Request:
+// 1. Book Object Script: Write a script that creates a book object, adds methods to it, and logs its properties and method results.
+// 2. Library Object Script: Create a script that defines a library object containing an array of book objects and logs the library's details.
+// 3. Object Iteration Script: Write a script that demonstrates iterating over an object's properties using for...in loop and object.keys / Object.values.Achievement:
+
+// By the end of these activities, students will:
+// • Create and manipulate objects with properties and methods.
+// • Understand and use the this keyword in object methods.
+// • Work with nested objects and arrays of objects.
+// • Iterate over an object's properties using loops and built-in methods.
+
+// --------------------------- Complete -----------------------------//
