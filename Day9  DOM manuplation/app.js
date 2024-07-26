@@ -54,7 +54,7 @@ if (ulMain.lastElementChild) {
 // • Task 7: Select an HTML element and change one of its attributes (e.g., src of an img tag).
 
 let imgElement = document.getElementById('myImage');
-imgElement.setAttribute('src', "./_662a66e0-499c-4ce9-9e52-8f733db0ce48.jpeg");
+imgElement.setAttribute('src', "./aj store.jpeg");
 
 // • Task 8: Add and remove a CSS class to/from an HTML element.
 
