@@ -13,32 +13,40 @@ btn.addEventListener('click', event => {
 
 // • Task 2: Add a double-click event listener to an image that toggles its visibility.
 
-const image = document.getElementById('myImage');
-image.addEventListener('dblclick', function () {
-    if (image.style.display === 'none') {
-        image.style.display = 'block';
-        console.log('if');
-    } else {
-        image.style.display = 'none';
-        console.log('else');
-    }
-});
+// const image = document.getElementById('myImage');
+// image.addEventListener('dblclick', function () {
+//     if (image.style.display === 'none') {
+//         image.style.display = 'block';
+//         console.log('if');
+//     } else {
+//         image.style.display = 'none';
+//         console.log('else');
+//     }
+// });
 
 // Activity 2: Mouse Events
 
 // • Task 3: Add a mouseover event listener to an element that changes its background color.
 
-
+let p = document.querySelector('#change')
+p.addEventListener('mouseover', () => {
+    p.style.backgroundColor = 'lightblue';
+})
 
 // • Task 4: Add a mouseout event listener to an element that resets its background color.
 
-
+p.addEventListener('mouseout', () => {
+    p.style.backgroundColor = 'white';
+})
 
 // Activity 3: Keyboard Events
 
 // • Task 5: Add a keydown event listener to an input field that logs the key pressed to the console.
 
-
+const input = document.querySelector('#input');
+input.addEventListener('change' , function(){
+    console.log('onchange event')
+})
 
 // • Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph.
 
