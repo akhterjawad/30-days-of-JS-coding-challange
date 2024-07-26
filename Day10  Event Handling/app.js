@@ -4,11 +4,25 @@
 
 // • Task 1: Add a click event listener to a button that changes the text content of a paragraph.
 
-
+let Task_1 = document.querySelector('#task-1');
+let btn = document.querySelector('#btn1');
+btn.addEventListener('click', event => {
+    event.preventDefault()
+    Task_1.innerHTML = "Task 1";
+})
 
 // • Task 2: Add a double-click event listener to an image that toggles its visibility.
 
-
+const image = document.getElementById('myImage');
+image.addEventListener('dblclick', function () {
+    if (image.style.display === 'none') {
+        image.style.display = 'block';
+        console.log('if');
+    } else {
+        image.style.display = 'none';
+        console.log('else');
+    }
+});
 
 // Activity 2: Mouse Events
 
