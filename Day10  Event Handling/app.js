@@ -14,45 +14,45 @@ btn.addEventListener('click', event => {
 // • Task 2: Add a double-click event listener to an image that toggles its visibility.
 
 const image = document.getElementById('myImage');
-image.addEventListener('dblclick', function () {
-    if (image.style.display === 'none') {
+image.addEventListener('dblclick', function () {;
+    if (image.style.display === 'none') {;
         image.style.display = 'block';
         console.log('if');
-    } else {
+    } else {;
         image.style.display = 'none';
         console.log('else');
-    }
+    };
 });
 
 // Activity 2: Mouse Events
 
 // • Task 3: Add a mouseover event listener to an element that changes its background color.
 
-let p = document.querySelector('#change')
-p.addEventListener('mouseover', () => {
+let p = document.querySelector('#change');
+p.addEventListener('mouseover', () => {;
     p.style.backgroundColor = 'lightblue';
-})
+});
 
 // • Task 4: Add a mouseout event listener to an element that resets its background color.
 
-p.addEventListener('mouseout', () => {
+p.addEventListener('mouseout', () => {;
     p.style.backgroundColor = 'white';
-})
+});
 
 // Activity 3: Keyboard Events
 
 // • Task 5: Add a keydown event listener to an input field that logs the key pressed to the console.
 
 const input = document.querySelector('#input');
-input.addEventListener('change', function () {
-    console.log('onchange event')
-})
+input.addEventListener('change', function () {;
+    console.log('onchange event');
+});
 
 // • Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph.
 
 const inputField = document.getElementById('myInput');
 const displayParagraph = document.getElementById('displayText');
-inputField.addEventListener('keyup', function () {
+inputField.addEventListener('keyup', function () {;
     displayParagraph.textContent = inputField.value;
 });
 
@@ -60,22 +60,22 @@ inputField.addEventListener('keyup', function () {
 
 // • Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console.
 
-let email = document.querySelector('#email')
-let password = document.querySelector('#password')
-let form = document.querySelector('#form')
-form.addEventListener('submit', event => {
-    event.preventDefault()
+let email = document.querySelector('#email');
+let password = document.querySelector('#password');
+let form = document.querySelector('#form');
+form.addEventListener('submit', event => {;
+    event.preventDefault();
     console.log(email.value);
     console.log(password.value);
-    email.value = ''
+    email.value = '';
     password.value = '';
-})
+});
 
 // • Task 8: Add a change event listener to a select dropdown that displays the selected value in a paragraph.
 
 const selectElement = document.getElementById('mySelect');
 const displayParagraphMain = document.getElementById('selectedValue');
-selectElement.addEventListener('change', function () {
+selectElement.addEventListener('change', function () {;
     displayParagraphMain.innerHTML = `Selected value: ${selectElement.value}`;
 });
 
@@ -84,15 +84,27 @@ selectElement.addEventListener('change', function () {
 // • Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation.
 
 const list = document.getElementById('myList');
-        list.addEventListener('click', event =>{
-            if (event.target && event.target.nodeName === 'LI') {
-                console.log(event.target.innerHTML);
-            }
-        });
+list.addEventListener('click', event => {;
+    if (event.target && event.target.tagName === 'LI') {;
+        console.log(event.target.innerHTML);
+    };
+});
 
 // • Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements.
 
-
+const parentList = document.getElementById('parentList');
+const addItemButton = document.getElementById('addItemButton');
+parentList.addEventListener('click', function (event) {;
+    if (event.target && event.target.tagName === 'LI') {;
+        console.log(event.target.innerHTML);
+    };
+});
+function addNewItem() {
+    const newItem = document.createElement('li');
+    newItem.textContent = `New Item ${parentList.children.length + 1}`;
+    parentList.appendChild(newItem);
+};
+addItemButton.addEventListener('click', addNewItem);
 
 // Feature Request:
 // 1. Click Event Script: Write a script that adds a click event listener to a button to change the text content of a paragraph.
