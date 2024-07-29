@@ -9,6 +9,7 @@ const myPromise = new Promise((resolve, reject) => {
     resolve("Promise resolved after 2 seconds");
   }, 2000);
 });
+
 myPromise
   .then(message => {
     console.log(message);
